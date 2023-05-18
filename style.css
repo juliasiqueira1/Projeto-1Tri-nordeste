@@ -1,0 +1,72 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+}
+
+main{
+    display: grid;
+    grid-template-areas: "menu mapa container "
+}
+
+.menu {
+    grid-area: menu;
+}
+
+h1 {
+    padding: 1vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+li {
+    margin: 1vh;
+    padding: 1vh;
+    border: 2px dotted black;
+    width: 40vh;
+}
+
+li:hover {
+    color: white;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    padding: 1%;
+}
+
+img {
+    height: 85vh;
+    width: 45vw;
+    grid-area: mapa;
+    padding: 5vh;
+}
+
+.info{
+    grid-area: container;
+    text-align: justify;
+    padding: 20px;
+}
+
+aside {
+    margin: 1%;
+}
+
+
+
